@@ -19,21 +19,6 @@ This repository contains my Python solutions to various problems from the [Rosal
 
 ---
 
-## 📂 Folder Structure
-
-
-rosalind-bioinformatics-solutions/
-│
-├── dna.py             # Problem: Counting DNA Nucleotides
-├── rna.py             # Problem: Transcribing DNA into RNA
-├── revc.py            # Problem: Complementing a Strand of DNA
-├── gc.py              # Problem: Computing GC Content
-├── ...                # More solutions coming soon!
-└── README.md          # You're here :)
-
-
----
-
 ## 🚀 Goals
 
 - Strengthen my bioinformatics foundation
