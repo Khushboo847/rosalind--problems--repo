@@ -8,14 +8,13 @@ def reverse_translation():
         "E": 2, "G": 4,
     }
 
-    mod = 1_000_000
     ways = 1
 
     for aa in protein:
-        ways = (ways * codon_count[aa]) % mod
+        ways = (ways * codon_count[aa]) 
 
     # Multiply by number of stop codons (UAA, UAG, UGA).
-    ways = (ways * 3) % mod
+    ways = (ways * 3) 
     return ways
 
 
